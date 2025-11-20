@@ -10,12 +10,15 @@ Setup Instructions:
 6. Run the App (streamlit run app.py)
 
 Tech Stack Used:
+
 Frontend
 1.Streamlit – lightweight web UI for Python projects
+
 Backend
-OpenAI API – used to generate customized workout plans
-Python-dotenv – secure environment variable handling
-SQLite3 – local database for storing user workout reports
+
+1.OpenAI API – used to generate customized workout plans
+2.Python-dotenv – secure environment variable handling
+3.SQLite3 – local database for storing user workout reports
 
 Predictive Logic:
 the number of weeks required to reach a user’s target weight using a formula based on
@@ -56,6 +59,7 @@ Returned as a rounded integer (e.g., “~9 weeks”).
 Example Output:
 
 User Input:
+
 Name: John
 Age: 28
 Gender: Male
@@ -67,7 +71,9 @@ Fitness Goal: Weight Loss
 Equipment: Dumbbells + Bodyweight
 
 Output:
+
 Recommended Workout Plan:
+
 - Warm-up: Jumping Jacks (2 mins), Shoulder Rotations (1 min)
 - Strength: Dumbbell Squats (3x12), Push-ups (3x10), Dumbbell Rows (3x12)
 - Cardio: Skipping (10 mins)
@@ -76,6 +82,7 @@ Recommended Workout Plan:
 Predicted Time to Achieve Target: ~9 weeks
 
 Database:
+
 User records are saved automatically into user.db
 
 
