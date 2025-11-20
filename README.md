@@ -51,9 +51,15 @@ BMI = weight / height
 | Full Gym               | 1.3        |
 
 5. Weekly Progress Calculation
+
+weekly_kg = base_loss * activity_mult * goal_mult * equip_mult
+
 Clamped between 0.3 and 1.8 kg per week for realism.
 
 6. Final Weeks Estimate
+
+weeks = abs(current_weight - target_weight) / weekly_kg
+
 Returned as a rounded integer (e.g., “~9 weeks”).
 
 Example Output:
