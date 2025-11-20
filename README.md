@@ -23,6 +23,7 @@ the number of weeks required to reach a user’s target weight using a formula b
 BMI = weight / height
 
 2. Activity Level Multiplier
+
 | Activity Level | Multiplier |
 | -------------- | ---------- |
 | Low            | 0.7        |
@@ -30,6 +31,7 @@ BMI = weight / height
 | High           | 1.3        |
 
 3. Fitness Goal Multiplier
+
 | Goal            | Multiplier |
 | --------------- | ---------- |
 | Weight Loss     | 1.2        |
@@ -38,6 +40,7 @@ BMI = weight / height
 | General Fitness | 1.0        |
 
 4.Equipment Multiplier
+
 | Equipment              | Multiplier |
 | ---------------------- | ---------- |
 | Bodyweight only        | 1.0        |
